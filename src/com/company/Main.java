@@ -31,6 +31,18 @@ public class Main {
 
         System.out.println("Are hi and truc the same object ? => " + (salut == truc));
         System.out.println("Do hi and truc contain the same information ? => " + (salut.equals(truc)));
+
+
+        String firstName,lastName;
+
+        System.out.println("What's your first name");
+        Scanner scan = new Scanner(System.in);
+        firstName = scan.nextLine();
+
+        System.out.println("What's your last name");
+        lastName = scan.nextLine();
+
+        System.out.println("Hello " + firstName + " " + lastName);
     }
 
 
