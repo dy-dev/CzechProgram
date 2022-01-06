@@ -15,6 +15,22 @@ public class Main {
         //Those 2 operation are not possible on their own, you need to call
         //other methods to be able to achieve that
 
+        Newclass aNewClass = new Newclass();
+
+        String hi = "Hello";
+        System.out.println("Hi = " + hi);
+        String salut = "Hello";
+        System.out.println("salut = " + salut);
+
+        System.out.println("Are hi and salut the same object ? => " + (salut == hi));
+
+        String truc = "He";
+        System.out.println("truc = " + truc);
+        truc += "llo";
+        System.out.println("truc (moified)= " + truc);
+
+        System.out.println("Are hi and truc the same object ? => " + (salut == truc));
+        System.out.println("Do hi and truc contain the same information ? => " + (salut.equals(truc)));
     }
 
 
